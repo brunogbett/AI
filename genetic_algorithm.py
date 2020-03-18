@@ -265,7 +265,7 @@ if __name__ == '__main__':
    
    # Initialize population
    pop = Population(tourmanager, 50, True);
-   print "Initial distance: " + str(pop.getFittest().getDistance())
+   print ("Initial distance: " + str(pop.getFittest().getDistance()))
    
    # Evolve population for 50 generations
    ga = GA(tourmanager)
@@ -274,7 +274,7 @@ if __name__ == '__main__':
       pop = ga.evolvePopulation(pop)
    
    # Print final results
-   print "Finished"
-   print "Final distance: " + str(pop.getFittest().getDistance())
-   print "Solution:"
-   print pop.getFittest()
+   print ("Finished")
+   print ("Final distance: " + str(pop.getFittest().getDistance()))
+   print ("Solution:")
+   print (pop.getFittest())
