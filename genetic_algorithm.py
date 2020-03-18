@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+#Bruno Gabriel Bett
+#Computer Engineering UTFPR - Curitiba 2020
 
 import math
 import random
